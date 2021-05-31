@@ -75,7 +75,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@elites_userbot":
+        if event.query.user_id == bot.uid and query == "@ALONE_FIGHTER_USERBOT":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
@@ -98,9 +98,9 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text="""**Hey! This is [MafiaBot.](https://t.me/MafiaBot_Support) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/SAVAGE_TECHY"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/ALONE_FIGHTER_USERBOT_UPDATES"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/SAVAGE_TEAM_BOLTE"
+                            "⚡ GROUP ⚡", "https://t.me/ALONE_FIGHTER_USERBOT"
                         ),
                     ],
                     [
@@ -108,7 +108,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                             "✨ REPO ✨", "https://github.com/sameerpanthi/elitebot"),
                         custom.Button.url
                     (
-                            "🔰 OWNER 🔰", "https://t.me/SAMEER_795" 
+                            "🔰 OWNER 🔰", "https://t.me/devil_darl_pro" 
                     )
                     ],
                 ],
@@ -127,7 +127,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF** [ELITES BOT](https://t.me/SAVAGE_USERBOT) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF** [ALONE USER BOT]() __Wohttps://t.me/ALONE_FIGHTER_USERBOTrking...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -136,10 +136,10 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_mafia(event,
-              "👑 Elites spam bot Menu Provider Is now Closed👑\n\n         **[© elite bot ™](t.me/elites_userbot)**", 5, link_preview=False
+              "👑 Elites spam bot Menu Provider Is now Closed👑\n\n         **[© alone bot ™](https://t.me/ALONE_FIGHTER_USERBOT)**", 5, link_preview=False
             )
         else:
-            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN ELITES SPAM BOT AND USE. © elites bot™"
+            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN ALONE SPAM BOT AND USE. © alone bot™"
             await event.answer(mafia_alert, cache_time=0, alert=True)
           
     @tgbot.on(
@@ -148,7 +148,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN ELITES SPAM BOT AND USE. © elitebot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN ELITES SPAM BOT AND USE. © alonebot ™",
                 cache_time=0,
                 alert=True,
             )
@@ -181,7 +181,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def commands(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN ELITES SPAM BOT AND USE. © Elitebot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN ELITES SPAM BOT AND USE. © alonebot ™",
                 cache_time=0,
                 alert=True,
             )
