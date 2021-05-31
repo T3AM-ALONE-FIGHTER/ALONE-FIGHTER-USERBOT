@@ -21,7 +21,7 @@ NEW_BOT_UP_DATE_FOUND = (
     "changelog: \n\n{changelog}\n"
     "updating your ELITES BOT ..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your ELITES BOT...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your ALONE BOT...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
