@@ -15,7 +15,7 @@ async def reply_id(event):
 
 DEFAULTUSER = ALIVE_NAME or "Mafia User"
 MAFIA_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_ELITEBOT"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_ALONE BOT"
 
 USERID = bot.uid
 
@@ -65,7 +65,7 @@ async def amireallyalive(alive):
         mafia_caption += f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈\n"
         mafia_caption += f"__**𝔹𝕆𝕋 𝕊𝕋𝔸𝕋𝕌𝕊**__\n\n"
         mafia_caption += f"**★ 𝕋𝕖𝕝𝕖𝕥𝕙𝕠𝕟 𝕧𝕖𝕣𝕤𝕚𝕠𝕟 :** `1.15.0`\n"
-        mafia_caption += f"**★ 𝔼𝕃𝕀𝕋𝔼𝕊 𝔹𝕆𝕋 :**`{mafiaversion}`\n"
+        mafia_caption += f"**★ 𝔸𝕃𝕆ℕ𝔼 𝔽𝕀𝔾ℍ𝕋𝔼ℝ 𝔹𝕆𝕋 :**`{mafiaversion}`\n"
         mafia_caption += f"**★ 𝕌𝕡𝕥𝕚𝕞𝕖 :** `{uptime}\n`"
         mafia_caption += f"**★ 𝕄𝕒𝕤𝕥𝕖𝕣 :** {mention}\n"
         await alive.client.send_file(
@@ -79,7 +79,7 @@ async def amireallyalive(alive):
             f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ \n"
             f"__**𝔹𝕆𝕋 𝕊𝕋𝔸𝕋𝕌𝕊**__\n\n"
             f"**★ 𝕋𝕖𝕝𝕖𝕥𝕙𝕠𝕟 𝕧𝕖𝕣𝕤𝕚𝕠𝕟 :** `1.15.0`\n"
-            f"**★ 𝔼𝕃𝕀𝕋𝔼𝕊 𝔹𝕆𝕋 :** `{mafiaversion}`\n"
+            f"**★ 𝔸𝕃𝕆ℕ𝔼 𝔽𝕀𝔾ℍ𝕋𝔼ℝ 𝔹𝕆𝕋 :** `{mafiaversion}`\n"
             f"**★ 𝕌𝕡𝕥𝕚𝕞𝕖 :** `{uptime}\n`"
             f"**★ 𝕄𝕒𝕤𝕥𝕖𝕣 :** {mention}\n",
         )
